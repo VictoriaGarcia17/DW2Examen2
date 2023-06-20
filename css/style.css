@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #5079FE; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-verde:#4BB889;
+	--color-gris:#7C899F;
+	--color-gris-claro:#E6E8EA;
+	--color-amarillo:#ffc800;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.img-fluid {
+	max-width: 100%;
+}
+
+#panel-menu {
+
+	color: #000000;
+	text-align: left;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+#menu-list {
+	background-color: rgba(115,210,230,1.00);
+	color: #FFFFFF;
+	text-align: left;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+.material-icons{
+	color:rgba(115,210,230,1.00);
+}
+
+#bright-idea {
+	background-image: url("../img/paginaprincipal-section-brightidea1.jpg");
+	background-size: cover;	
+	padding: 10%;
+}
+
+.nav-bar-title{
+	color:rgba(115,210,230,1.00);
+	text-align: center;
+	align-items: center;
+}
+
+#header-title {
+	padding: 2%;
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	font-size: 300%;
+	color:#000;
+	align-content: center;
+	align-items: center;
+	margin: 0px;
+}
+
+#header-title3 {
+	padding: 2%;
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	font-size: 200%;
+	color:#000;
+	align-content: center;
+	align-items: center;
+	margin: 0px;
+}
+
+#header-title1 {
+
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	font-size: 200%;
+	color:#000;
+	align-content: center;
+	align-items: center;
+	margin: 0px;
+}
+
+#intro {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+
+#button{
+	background-color:rgba(115,210,230,1.00);
+	color: #FFFFFF;
+	padding-left: 1%;
+	padding-right: 1%;
+
+}
+
+#button1 {
+	background-color:rgba(115,210,230,1.00);
+	color: #FFFFFF;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#bright-idea-collection {
+	padding: 10%;
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	font-size: 300%;
+	background-color:rgba(211,211,211,0.60);
+	color:#D67124;
+	align-content: center;
+	align-items: center;
+	margin: 0px;
+}
+
+#header-aboutus {
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	font-size: 200%;
+	color:#F8BB63;
+}
+
+#shop {background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../img/paginaprincipal-section-blockstar.jpg");
+	background-size: cover;
+	padding: 10%;
+	background-position: center;
+}
+
+.title-menu{
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+.btn-categories{
+	display: inline-block;
+
+}
+
+.btn-categories .title-categories{
+	text-align: center;
+	padding: 15px 27px;
+	font-size: 15px;
+}
+
+.active{
+	background-color: rgba(115,210,230,1.00);
+	border: rgba(115,210,230,1.00) 1px solid;
+}
+
+.inactive{
+	border: rgba(115,210,230,1.00) 1px solid;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.active{
+	color: #FFFFFF;
+	font-weight: 300;
+}
+
+.item-title.title-producto{
+	color: #FFFFFF;
+	font-weight: 400;
+	padding-top: 10px;
+}
+
+.informacion-producto-shop{
+	background-color: rgba(115,210,230,1.00);
+	border-radius: 5px;
+	height: 190px;
+	margin-bottom: 10px;
+}
+
+.item-text.texto-producto{
+	color: #FFFFFF;
+	font-weight: 100;
+	font-size: 14px;
+}
+
+.precio.float-right{
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 35px;
+	
+}
+.item-media.photo-product{
+	padding: 0;
+}
+
+.list .item-content{
+	padding: 0px;
+}
+
+
+.center{
+	text-align: center;
+}
+
+.item-content-comentario{
+	border: 1px solid #d67124; 
+}
+
+.item-title.item-label.title-comentario-menu{
+	color: #000000;
+	font-size: 17px;
+	padding-bottom: 4%;
+}
+
+.item-title.item-label.title-info-trajeta{
+	color: #000000;
+	font-size: 17px;
+	padding-bottom: 4%;
+}
